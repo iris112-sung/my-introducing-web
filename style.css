@@ -1,3 +1,9 @@
 div {
     text-align: center;
 }
+.emoji {
+    font-size: 2rem;
+    margin-right: 10px;
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
