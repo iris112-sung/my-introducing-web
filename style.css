@@ -7,3 +7,92 @@ div {
     display: inline-block;
     animation: bounce 2s infinite;
 }
+@-webkit-keyframes bounce {
+      0% {
+        top: 0;
+      }
+
+      50% {
+        top: -5px;
+      }
+
+      70% {
+        top: -50px;
+      }
+
+      100% {
+        top: 0;
+      }
+    }
+
+    @-moz-keyframes bounce {
+      0% {
+        top: 0;
+      }
+
+      50% {
+        top: -5px;
+      }
+
+      70% {
+        top: -50px;
+      }
+
+      100% {
+        top: 0;
+      }
+    }
+
+    @-o-keyframes bounce {
+      0% {
+        top: 0;
+      }
+
+      50% {
+        top: -5px;
+      }
+
+      70% {
+        top: -50px;
+      }
+
+      100% {
+        top: 0;
+      }
+    }
+
+    @-ms-keyframes bounce {
+      0% {
+        top: 0;
+      }
+
+      50% {
+        top: -5px;
+      }
+
+      70% {
+        top: -50px;
+      }
+
+      100% {
+        top: 0;
+      }
+    }
+
+    @keyframes bounce {
+      0% {
+        top: 0;
+      }
+
+      50% {
+        top: -5px;
+      }
+
+      70% {
+        top: -50px;
+      }
+
+      100% {
+        top: 0;
+      }
+    }
